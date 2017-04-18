@@ -1,4 +1,4 @@
-app.factory('PiratesService', ['$http',
+app.factory('ProfilesService', ['$http',
 
 function($http) {
   var factory = {};

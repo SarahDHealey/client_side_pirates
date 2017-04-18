@@ -1,10 +1,10 @@
-var app = angular.module('pirates', ['ngRoute'])
+var app = angular.module('profiles', ['ngRoute'])
 
 app.config(function($routeProvider) {
   $routeProvider
 
     .when('/', {
-        templateUrl: 'views/pirates.html',
-        controller: 'PiratesController'
+        templateUrl: 'views/profiles.html',
+        controller: 'ProfilesController'
     })
 });

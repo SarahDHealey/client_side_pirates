@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+
+  div.container
+    h1 Add a New Book
+    form(action='/profiles' method='post')
+      div.form-group
+        label(for="profile") Profile
+        input.form-control(type="text" id="name" name='name' placeholder="Name")
+      div.form-group
+        label(for="poison") Poison
+        input.form-control(type="text" id="poison" name='poison' placeholder="Poison")
+      button.btn.btn-primary(type="submit") Submit
